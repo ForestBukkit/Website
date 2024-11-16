@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ForestBukkit</title>
+  <link rel="icon" type="image/x-icon" href="fb.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <style>
+    /* Basic Reset and Font */
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      color: #ffffff;
+      overflow-x: hidden;
+      background-color: #000;
+      background-image: url('https://source.unsplash.com/1600x900/?space,stars');
+      background-size: cover;
+      background-attachment: fixed;
+    }
+    
+    /* General Styling */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    /* Header */
+    header {
+      text-align: center;
+      padding: 50px 20px;
+      font-size: 2.5em;
+    }
+    
+    .tagline {
+      font-size: 16pt;
+      margin-top: 10px;
+      color: #bbbbbb;
+    }
+    
+    /* Projects Section */
+    .projects-section {
+      text-align: center;
+      padding: 20px 20px;
+    }
+
+    .project-cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    
+    .project-card {
+      width: 250px;
+      padding: 20px;
+      background-color: rgba(30, 30, 50, 0.85);
+      border-radius: 10px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 20px rgba(255, 255, 255, 0.2);
+    }
+
+    .project-card h3 {
+      margin: 0;
+      font-size: 1.5em;
+      color: #aad1ff;
+    }
+
+    .project-card p {
+      font-size: 0.9em;
+      color: #cccccc;
+    }
+
+    /* Social Links Section */
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 30px 0;
+    }
+
+    .social-links a {
+      color: #aad1ff;
+      font-size: 1.5em;
+      transition: color 0.3s ease;
+    }
+
+    .social-links a:hover {
+      color: #ffffff;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 0.8em;
+      color: #bbbbbb;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <br>
+    <br>
+    <br>
+    <img src="fbclear.png" width="128" height="128">
+    <br>
+    ForestBukkit
+    <div class="tagline">Connecting the world.</div>
+  </header>
+
+  <!-- Projects Section -->
+  <section class="projects-section">
+    <h2>We specialize in...</h2>
+    <div class="project-cards container">
+      <div class="project-card">
+        <h3>Development</h3>
+        <p>We've developed projects for a large variety of networks, websites, and apps, working with hundreds of people to create their vision.</p>
+      </div>
+      <div class="project-card">
+        <h3>Content Creation</h3>
+        <p>We've created content for large platforms like YouTube, Vimeo, and TikTok, reaching over 50k impressions on all our platforms.</p>
+      </div>
+      <div class="project-card">
+        <h3>Marketing</h3>
+        <p>We've worked with several brands to market their projects, we've worked with several major Minecraft networks and Content Creators.</p>
+      </div>
+      <!-- Add more project cards as needed -->
+    </div>
+  </section>
+
+  <!-- Social Links Section -->
+  <section class="social-links">
+    <a href="https://github.com/ForestBukkit" target="_blank"><i class="fab fa-brands fa-github fa-2x"></i></a>
+    <a href="https://x.com/ForestBukkit" target="_blank"><i class="fab fa-brands fa-twitter fa-2x"></i></a>
+    <a href="https://discord.gg/E2GcpCyFVv" target="_blank"><i class="fab fa-brands fa-discord fa-2x"></i></a>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    © 2024 ForestBukkit. All rights reserved.
+  </footer>
+
+</body>
+</html>
