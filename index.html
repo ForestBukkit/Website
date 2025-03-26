@@ -9,6 +9,9 @@
   <style>
     /* Basic Reset and Font */
     body, html {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
       margin: 0;
       padding: 0;
       font-family: Arial, sans-serif;
@@ -19,92 +22,27 @@
       background-size: cover;
       background-attachment: fixed;
     }
-    
-    /* General Styling */
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-    
-    /* Header */
+
     header {
+      flex: 1; /* Pushes footer to the bottom */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       text-align: center;
-      padding: 400px 20px;
       font-size: 2.5em;
     }
 
-    img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.8em;
+      color: #bbbbbb;
     }
-    
+
     .tagline {
       font-size: 16pt;
       margin-top: 10px;
-      color: #bbbbbb;
-    }
-    
-    /* Projects Section */
-    .projects-section {
-      text-align: center;
-    }
-
-    .project-cards {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      justify-content: center;
-    }
-    
-    .project-card {
-      width: 250px;
-      padding: 20px;
-      background-color: rgba(30, 30, 50, 0.85);
-      border-radius: 10px;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-
-    .project-card:hover {
-      transform: translateY(-10px);
-      box-shadow: 0 8px 20px rgba(255, 255, 255, 0.2);
-    }
-
-    .project-card h3 {
-      margin: 0;
-      font-size: 1.5em;
-      color: #aad1ff;
-    }
-
-    .project-card p {
-      font-size: 0.9em;
-      color: #cccccc;
-    }
-
-    /* Social Links Section */
-    .social-links {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      padding: 30px 0;
-    }
-
-    .social-links a {
-      color: #aad1ff;
-      font-size: 1.5em;
-      transition: color 0.3s ease;
-    }
-
-    .social-links a:hover {
-      color: #ffffff;
-    }
-
-    /* Footer */
-    footer {
-      text-align: center;
-      padding: 40px;
-      font-size: 0.8em;
       color: #bbbbbb;
     }
 
